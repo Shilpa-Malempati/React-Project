@@ -16,7 +16,7 @@ class App extends Component {
     
     componentDidMount() {
         this.setState({loading: true})
-        fetch("http://swapi.co/api/people/1",{
+        fetch("https://jsonplaceholder.typicode.com/todos/1",{
           mode: 'cors',
           headers: {
             'Access-Control-Allow-Origin':'*'
